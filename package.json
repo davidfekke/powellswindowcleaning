@@ -2,7 +2,7 @@
   "scripts": {
     "start": "npx tailwindcss -i src/input.css -o dist/output.css",
     "style:watch": "tailwindcss -i src/input.css -o dist/output.css --watch",
-    "build": "npx tailwindcss -i src/input.css -o dist/output.css"
+    "build": "npx tailwindcss -i src/input.css -o dist/output.css && cp ./src/* ./dist/"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
